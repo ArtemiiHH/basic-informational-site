@@ -8,6 +8,7 @@ const server = http.createServer((req, res) => {
   res.end("Hello World!");
 });
 
+// Server setup
 server.listen(8080, () => {
   console.log(`Sever is running!`);
 });
